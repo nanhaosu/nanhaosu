@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research portfolio of Nanhao Su, an undergraduate researcher at HUST working on trustworthy AI, agent memory, and LLM security evaluation.">
+  <meta name="theme-color" content="#153838">
+  <title>Nanhao Su | Trustworthy AI Research Portfolio</title>
+  <style>
+    :root { --ink:#142b2b; --deep:#143b3a; --muted:#586b69; --link:#236d67; --line:#d9e2dd; --paper:#fbfcf9; --mint:#e9f1ed; --mint2:#d7e7df; --accent:#bd926a; }
+    * { box-sizing:border-box; }
+    html {scroll-behavior:smooth;}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.62;-webkit-font-smoothing:antialiased;}
+    a{color:var(--link);text-decoration:none;}a:hover{text-decoration:underline;}a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px;}
+    .container{max-width:1120px;margin:auto;padding:0 48px;}
+    .nav{border-bottom:1px solid var(--line);background:rgba(251,252,249,.96);position:sticky;z-index:20;top:0;backdrop-filter:blur(12px);}
+    .nav .wrap{height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px;}
+    .brand{font-size:15px;font-weight:800;letter-spacing:.08em;color:var(--deep);}
+    .navlinks{display:flex;align-items:center;gap:25px;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;}
+    .navlinks a{color:var(--muted)}.navlinks a:hover{color:var(--deep)}
+    .navlinks .resume{border:1px solid #b5cbc2;padding:9px 12px;border-radius:4px;color:var(--deep)}
+    .hero{padding:84px 0 82px;position:relative;border-bottom:1px solid var(--line);overflow:hidden;}
+    .herogrid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.8fr);gap:66px;align-items:center;}
+    .eyebrow{font-size:11px;letter-spacing:.18em;font-weight:800;text-transform:uppercase;color:var(--link);}
+    h1{margin:22px 0 24px;font-size:clamp(41px,5.2vw,66px);line-height:1.11;letter-spacing:-.054em;font-weight:760;max-width:730px;}
+    .lead{font-size:18px;line-height:1.7;color:#3a5551;max-width:650px;margin:0 0 30px;}
+    .heroactions{display:flex;gap:12px;flex-wrap:wrap;}
+    .btn{border-radius:5px;display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;font-size:13px;font-weight:700;transition:transform .15s;}
+    .btn:hover{transform:translateY(-1px);text-decoration:none}
+    .btn.primary{color:white;background:var(--deep)}.btn.secondary{border:1px solid #b6cbc2;color:var(--deep);}
+    .heroaside{border:1px solid #cadaD3;background:linear-gradient(160deg,#f5faf6,#edf5ef);border-radius:8px;padding:30px 28px;box-shadow:10px 12px 0 rgba(22,68,63,.045);}
+    .symbol{width:100%;height:142px;position:relative;overflow:hidden;border-bottom:1px solid #cfded5;margin-bottom:22px;}
+    .symbol .ring{position:absolute;border:1px solid #7faba0;border-radius:50%;width:114px;height:114px;top:4px;left:calc(50% - 57px);}
+    .symbol .ring::after{content:"";position:absolute;width:56px;height:56px;border:1px solid #9dbab1;border-radius:50%;top:27px;left:27px;}
+    .symbol .bar{position:absolute;height:1px;background:#7ea69b;transform-origin:left;width:74px;top:63px;left:calc(50% - 81px);transform:rotate(-18deg);}
+    .symbol .dot{position:absolute;background:#236d67;border:4px solid #edf5ef;border-radius:50%;width:18px;height:18px;top:46px;left:calc(50% - 64px)}
+    .symbol .dot.two{width:14px;height:14px;background:#bc916a;top:96px;left:calc(50% + 41px)}
+    .symbol .dot.three{width:12px;height:12px;background:#547d77;top:4px;left:calc(50% + 29px)}
+    .asideheader{font-size:11px;text-transform:uppercase;letter-spacing:.15em;color:var(--link);font-weight:750}
+    .asidehead{font-size:20px;font-weight:750;line-height:1.35;margin:10px 0 14px}
+    .small{font-size:13px;color:var(--muted);line-height:1.7}
+    .meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+    .pill{border:1px solid #cedfd5;border-radius:30px;color:#355751;font-weight:650;padding:5px 10px;font-size:11px;background:#f5faf6;}
+    section{padding:82px 0;scroll-margin-top:72px;}
+    .sectionhead{display:flex;align-items:baseline;justify-content:space-between;gap:32px;margin-bottom:34px;}
+    .sectionhead h2{font-size:31px;letter-spacing:-.036em;margin:6px 0 0;line-height:1.18;}
+    .sectiondesc{max-width:430px;color:var(--muted);font-size:13px;line-height:1.72;}
+    .focusgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+    .focus{padding:27px 25px;border:1px solid var(--line);border-radius:6px;background:white;}
+    .focusnum{font-size:11px;color:var(--link);font-weight:800;letter-spacing:.12em;}
+    .focus h3{margin:14px 0 10px;font-size:17px;line-height:1.36;letter-spacing:-.015em;}
+    .focus p{font-size:13px;color:var(--muted);line-height:1.74;margin:0;}
+    .band{background:#f1f5f1;border-top:1px solid #e2ebe3;border-bottom:1px solid #e2ebe3;}
+    .research-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+    .researchcard{background:white;border:1px solid #d7e2d9;border-radius:7px;padding:34px;display:flex;flex-direction:column;min-height:385px;}
+    .tagline{font-weight:750;font-size:10px;letter-spacing:.13em;color:#43817c;text-transform:uppercase;}
+    .researchcard h3{font-size:23px;letter-spacing:-.034em;margin:15px 0 10px;line-height:1.25;}
+    .researchcard .description{color:var(--muted);font-size:13px;line-height:1.75;margin:0 0 17px;}
+    .researchcard ul{margin:0;padding-left:18px;color:#27423e;font-size:13px;line-height:1.75;}
+    .researchcard li{margin:7px 0;padding-left:4px;}
+    .researchcard .source{font-size:12px;color:#698079;margin-top:auto;padding-top:25px;border-top:1px solid #e7eee8;}
+    .methods{margin-top:22px;display:grid;grid-template-columns:2fr 1fr;gap:18px;}
+    .methodbox{padding:23px 29px;background:var(--deep);color:#eef7f1;border-radius:5px;}
+    .methodbox strong{display:block;font-size:15px;margin-bottom:7px}
+    .methodbox p{margin:0;font-size:13px;color:#d7e6de;line-height:1.75}
+    .methodnote{padding:23px 26px;border:1px solid #cee0d5;border-radius:5px;color:#536d64;font-size:13px;line-height:1.75;}
+    .projects{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+    .project{border:1px solid var(--line);border-radius:6px;padding:31px;background:white;}
+    .projecttop{display:flex;justify-content:space-between;align-items:center;gap:10px;}
+    .projecttop .label{font-size:10px;font-weight:850;letter-spacing:.11em;text-transform:uppercase;color:#407d75;}
+    .project h3{font-size:22px;letter-spacing:-.035em;margin:17px 0 10px;}
+    .project p{font-size:13px;color:var(--muted);line-height:1.75;margin:0 0 20px;min-height:93px;}
+    .metrics{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:19px;}
+    .metrics span{font-size:11px;background:#edf3ef;color:#375952;padding:5px 9px;border-radius:3px;font-weight:700;}
+    .project a{font-size:13px;font-weight:750;}
+    .inset{margin-top:17px;font-size:12px;color:var(--muted);}
+    .bio-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;}
+    .bio-grid h3{font-size:18px;margin:0 0 15px;}
+    .bio-grid p{color:var(--muted);font-size:14px;line-height:1.8;}
+    .bio-grid .detail{padding:14px 0;border-bottom:1px solid var(--line);display:flex;align-items:baseline;justify-content:space-between;gap:15px;font-size:13px;color:#506963;}
+    .detail b{color:var(--deep);font-size:12px;}
+    .footer{padding:45px 0 55px;border-top:1px solid #bfd1c9;background:#eaf1eb;}
+    .footer .inner{display:flex;justify-content:space-between;gap:28px;align-items:flex-start}
+    .footer h2{font-size:28px;line-height:1.25;margin:4px 0 12px;letter-spacing:-.03em}
+    .footer p{margin:0;font-size:13px;color:#506962;}
+    .contactlinks{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:8px;}
+    .contactlinks a{border:1px solid #b8ccc0;border-radius:4px;padding:10px 12px;font-size:12px;font-weight:750;}
+    .credit{margin-top:36px;padding-top:19px;border-top:1px solid #cbdcd1;font-size:11px;color:#74877d;display:flex;justify-content:space-between;gap:12px}
+    @media(max-width:820px){.container{padding:0 24px}.navlinks{gap:13px}.navlinks a:nth-child(2){display:none}.hero{padding:55px 0}.herogrid,.research-grid,.projects,.bio-grid{grid-template-columns:1fr}.heroaside{max-width:480px}.focusgrid{grid-template-columns:1fr}.methods{grid-template-columns:1fr}.researchcard{min-height:auto}.sectiondesc{display:none}.project p{min-height:0}.footer .inner{flex-direction:column}.contactlinks{justify-content:flex-start}}
+    @media(max-width:520px){.container{padding:0 20px}.nav .wrap{height:66px}.navlinks a:nth-child(3){display:none}.brand{font-size:13px}.navlinks{gap:11px}.navlinks a{font-size:10px}.navlinks .resume{padding:8px 9px}.hero h1{font-size:39px}.lead{font-size:16px}.sectionhead h2{font-size:27px}section{padding:60px 0}.researchcard,.project{padding:26px}.credit{flex-direction:column}}
+    @media print{.nav{position:static}.hero{padding-top:40px}section{padding:30px 0}}
+  </style>
+</head>
+<body>
+  <header class="nav"><div class="container wrap">
+    <a class="brand" href="#top">NANHAO SU<span style="color:#97b6a8"> / RESEARCH</span></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#research">Research</a><a href="#projects">Selected work</a><a href="#about">About</a><a class="resume" href="cv.pdf" target="_blank" rel="noopener">Academic CV ↗</a></nav>
+  </div></header>
+  <main id="top">
+    <div class="hero"><div class="container herogrid">
+      <div>
+        <div class="eyebrow">Undergraduate Researcher · HUST · Wuhan, China</div>
+        <h1>Researching reliability in <span style="color:#397f76">LLM-based agents.</span></h1>
+        <p class="lead">I work at the intersection of trustworthy AI, long-term agent memory, and evidence-grounded evaluation. My experience combines controlled memory-system studies with LLM-based data augmentation and reproducible engineering.</p>
+        <div class="heroactions"><a class="btn primary" href="#research">Explore research <span style="margin-left:12px">↗</span></a><a class="btn secondary" href="research-brief.pdf" target="_blank" rel="noopener">Research brief · PDF</a></div>
+      </div>
+      <aside class="heroaside" aria-label="Research snapshot">
+        <div class="symbol" aria-hidden="true"><div class="ring"></div><div class="bar"></div><div class="dot"></div><div class="dot two"></div><div class="dot three"></div></div>
+        <div class="asideheader">Current focus</div>
+        <p class="asidehead">Trustworthy agents, reliable memory, testable evidence.</p>
+        <div class="small">B.Eng., Electromagnetic Fields and Wireless Technology, Huazhong University of Science and Technology. Expected graduation: June 2029.</div>
+        <div class="meta"><span class="pill">Agent Memory</span><span class="pill">Safety Evaluation</span><span class="pill">LLM Security</span></div>
+      </aside>
+    </div></div>
+    <section aria-labelledby="focus-title"><div class="container">
+      <div class="sectionhead"><div><div class="eyebrow">01 / Research lens</div><h2 id="focus-title">Questions I care about</h2></div><div class="sectiondesc">Three areas guiding my research interests and experimental work.</div></div>
+      <div class="focusgrid">
+        <article class="focus"><div class="focusnum">01 — MEMORY</div><h3>Reliable long-term memory</h3><p>How memory-enabled agents update, retrieve, and use information over time—and how we can evaluate those behaviors reproducibly.</p></article>
+        <article class="focus"><div class="focusnum">02 — SECURITY</div><h3>Trustworthy agent behavior</h3><p>Safety and privacy questions when agents interact with external information, tools, and persistent state.</p></article>
+        <article class="focus"><div class="focusnum">03 — EVALUATION</div><h3>Evidence-grounded testing</h3><p>Controlled comparisons, traceable experimental artifacts, negative-case preservation, and careful interpretation of results.</p></article>
+      </div>
+    </div></section>
+    <section class="band" id="research" aria-labelledby="research-title"><div class="container">
+      <div class="sectionhead"><div><div class="eyebrow">02 / Research experience</div><h2 id="research-title">Research & applied studies</h2></div><div class="sectiondesc">Selected contributions from research-group work and a provincial undergraduate innovation project.</div></div>
+      <div class="research-grid">
+        <article class="researchcard">
+          <div class="tagline">HUST Trustworthy AI Research Group · May 2026–Present</div><h3>Agent memory reliability & evaluation</h3>
+          <p class="description">Undergraduate research on the behavior of memory-enabled language-model agents.</p>
+          <ul><li>Investigated A-MEM and a fixed-version Mem0 implementation through controlled synthetic-data experiments.</li><li>Studied long-term memory updates, state consistency, and downstream retrieval behavior using test traces and controlled comparisons.</li><li>Documented 54 A-MEM experimental configurations and 72 matched replay units in internal research records; developed preliminary evaluation protocols and pilot studies.</li></ul>
+          <div class="source">Ongoing research · technical details available for discussion as appropriate.</div>
+        </article>
+        <article class="researchcard">
+          <div class="tagline">Provincial Undergraduate Innovation Project · 2026–Present</div><h3>LLM-based telecom-fraud data augmentation</h3>
+          <p class="description">Literature-informed synthetic dialogue generation for fraud-related model research.</p>
+          <ul><li>Adapted augmentation ideas from <em>TeleAntiFraud-28k</em> (ACM MM 2025) and <em>Bot Wars Evolved</em> (2025).</li><li>Used Qwen and DeepSeek with an existing corpus of 66,699 fraud case descriptions; contributed to generating 10,000 annotated synthetic dialogues.</li><li>Contributed to prompt refinement, quality assessment, and evaluation workflows for lightweight fraud detection.</li></ul>
+          <div class="source">Team project · literature-informed augmentation and data quality work.</div>
+        </article>
+      </div>
+      <div class="methods"><div class="methodbox"><strong>Working style</strong><p>Translate questions into controlled tests; preserve original traces and unsuccessful cases; distinguish prototype behavior from validated research findings.</p></div><div class="methodnote"><strong style="color:#2e6158">Availability</strong><br>Seeking remote research collaboration beginning mid-January 2027, preferably sustained over multiple months.</div></div>
+    </div></section>
+    <section id="projects" aria-labelledby="projects-title"><div class="container">
+      <div class="sectionhead"><div><div class="eyebrow">03 / Public engineering artifacts</div><h2 id="projects-title">Selected technical work</h2></div><div class="sectiondesc">Open repositories demonstrating implementation, testing, and reproducible engineering.</div></div>
+      <div class="projects">
+        <article class="project"><div class="projecttop"><span class="label">Agent evaluation tooling</span><span class="small">Python · offline</span></div><h3>Agent Risk Audit</h3><p>Offline audit tooling for structured agent risk-rating records, including provenance preservation, missing/duplicate records, and eligibility checks.</p><div class="metrics"><span>11 unit tests</span><span>4 blocked probes</span><span>Synthetic fixture</span></div><a href="https://github.com/nanhaosu/agent-risk-audit" target="_blank" rel="noopener">View GitHub repository ↗</a><div class="inset">Synthetic test cases and reproducible audit workflow.</div></article>
+        <article class="project"><div class="projecttop"><span class="label">Stateful system engineering</span><span class="small">Python · JavaScript</span></div><h3>FlowOps Engineering</h3><p>A synthetic incident-coordination prototype with persistent sessions, execution constraints, authorization revisions, and inspectable recovery obligations.</p><div class="metrics"><span>45 Python tests</span><span>9 Node tests</span><span>36 synthetic trajectories</span></div><a href="https://github.com/nanhaosu/flowops-engineering" target="_blank" rel="noopener">View GitHub repository ↗</a><div class="inset">Synthetic-domain engineering study with inspectable state transitions.</div></article>
+      </div>
+      <p class="small" style="margin-top:23px">Additional reading and reproduction notes: <a href="https://github.com/nanhaosu/paper-reproduction" target="_blank" rel="noopener">paper-reproduction repository ↗</a> (selected reading and reproduction notes).</p>
+    </div></section>
+    <section class="band" id="about" aria-labelledby="about-title"><div class="container">
+      <div class="sectionhead"><div><div class="eyebrow">04 / Background</div><h2 id="about-title">Skills & context</h2></div></div>
+      <div class="bio-grid"><div><h3>About</h3><p>I am an undergraduate student at HUST working with a trustworthy AI research group. I am interested in research collaborations where I can contribute to experimental design, reproducibility, data workflows, and empirical analysis while developing stronger independent research skills.</p><p>For potential supervisors, I can share a one-page academic CV and discuss the scope of my ongoing studies without disclosing unpublished project materials.</p></div>
+      <div><div class="detail"><b>Programming</b><span>Python · C</span></div><div class="detail"><b>ML tools</b><span>PyTorch · Hugging Face</span></div><div class="detail"><b>Other tools</b><span>Git · Linux · SQLite · LaTeX</span></div><div class="detail"><b>Education</b><span>HUST · B.Eng. expected 2029</span></div><div class="detail"><b>Remote start</b><span>January 2027</span></div></div></div>
+    </div></section>
+  </main>
+  <footer class="footer" id="contact"><div class="container">
+    <div class="inner"><div><div class="eyebrow">Connect</div><h2>Open to research collaboration.</h2><p>For research inquiries, please contact me via university email.</p></div>
+      <div class="contactlinks"><a href="mailto:sunanhao@hust.edu.cn">University email ↗</a><a href="https://github.com/nanhaosu" target="_blank" rel="noopener">GitHub ↗</a><a href="cv.pdf" target="_blank" rel="noopener">Academic CV ↗</a></div></div>
+    <div class="credit"><span>© 2026 Nanhao Su · Research portfolio</span><span>Selected public / shareable information · Last updated 3 Nov 2026</span></div>
+  </div></footer>
+</body></html>
