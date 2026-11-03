@@ -1,0 +1,86 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 6320 >>
+stream
+0.08 0.24 0.23 rg BT /F2 22.00 Tf 1 0 0 1 47.00 792.00 Tm (NANHAO SU) Tj ET
+0.32 0.44 0.42 rg BT /F1 9.00 Tf 1 0 0 1 47.00 762.00 Tm (Wuhan, China  |  sunanhao@hust.edu.cn  |  sunanhao528@gmail.com  |  github.com/nanhaosu) Tj ET
+0.78 0.84 0.82 RG 0.65 w 47 748 m 548 748 l S
+0.09 0.35 0.32 rg BT /F2 10.30 Tf 1 0 0 1 47.00 720.00 Tm (EDUCATION) Tj ET
+0.83 0.88 0.86 RG 0.65 w 47 709 m 548 709 l S
+0.09 0.22 0.22 rg BT /F2 9.60 Tf 1 0 0 1 47.00 695.00 Tm (Huazhong University of Science and Technology \(HUST\) | Sep 2025 - Jun 2029) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.35 Tf 1 0 0 1 47.00 682.00 Tm (B.Eng. in Electromagnetic Fields and Wireless Technology | Expected graduation: Jun 2029) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.35 Tf 1 0 0 1 47.00 667.20 Tm (Weighted average: 84.77/100 | Selected courses: Python \(96/100\), Data Structures \(90/100\), C Programming) Tj ET
+0.09 0.35 0.32 rg BT /F2 10.30 Tf 1 0 0 1 47.00 643.40 Tm (RESEARCH INTERESTS) Tj ET
+0.83 0.88 0.86 RG 0.65 w 47 632.4000000000001 m 548 632.4000000000001 l S
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 47.00 621.40 Tm (Trustworthy AI | LLM Agent Safety | Agent Memory Reliability | Privacy and Security Evaluation) Tj ET
+0.09 0.35 0.32 rg BT /F2 10.30 Tf 1 0 0 1 47.00 597.10 Tm (RESEARCH EXPERIENCE) Tj ET
+0.83 0.88 0.86 RG 0.65 w 47 586.1000000000001 m 548 586.1000000000001 l S
+0.09 0.22 0.22 rg BT /F2 9.60 Tf 1 0 0 1 47.00 572.10 Tm (Trustworthy AI Research Group, HUST | Undergraduate Researcher | May 2026 - Present) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.35 Tf 1 0 0 1 47.00 559.10 Tm (Research mentor: Dr. Gaoyang Liu) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 544.30 Tm (- Investigated A-MEM and a fixed-version Mem0 release through controlled synthetic-data experiments, analyzing) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 533.00 Tm (long-term memory updates, state consistency, and downstream retrieval behavior.) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 519.70 Tm (- Documented 54 A-MEM test configurations and 72 matched replay units; audited experiment traces, preserved negative) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 508.40 Tm (cases, and scoped findings to tested implementations.) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 495.10 Tm (- Reviewed agent-memory security literature and developed preliminary evaluation protocols and pilot studies for) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 483.80 Tm (long-horizon agent reliability in research-group discussions.) Tj ET
+0.09 0.22 0.22 rg BT /F2 9.60 Tf 1 0 0 1 47.00 467.50 Tm (Provincial Undergraduate Innovation Project | Research Team Member | 2026 - Present) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.35 Tf 1 0 0 1 47.00 454.50 Tm (Lightweight LLM-based Telecom-Fraud Dialogue Analysis | Supervisor: Prof. Wei Yuan) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 439.70 Tm (- Adapted data augmentation approaches from TeleAntiFraud-28k \(ACM MM 2025\) and Bot Wars Evolved \(2025\), using Qwen) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 428.40 Tm (and DeepSeek to augment a corpus of 66,699 fraud case descriptions and contributing to 10,000 generated, annotated) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 417.10 Tm (dialogues.) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 403.80 Tm (- Refined prompts and contributed to synthetic dialogue quality assessment and model evaluation for lightweight LLM-based) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 392.50 Tm (fraud detection.) Tj ET
+0.09 0.35 0.32 rg BT /F2 10.30 Tf 1 0 0 1 47.00 370.20 Tm (SELECTED TECHNICAL PROJECTS) Tj ET
+0.83 0.88 0.86 RG 0.65 w 47 359.20000000000016 m 548 359.20000000000016 l S
+0.09 0.22 0.22 rg BT /F2 9.60 Tf 1 0 0 1 47.00 345.20 Tm (Agent Risk Audit | Python | Public repository | 2026 - Present) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 332.20 Tm (- Developed reproducible offline tooling to audit agent risk-rating records, preserving provenance and identifying missing,) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 320.90 Tm (duplicate, or invalid evaluation entries.) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 307.60 Tm (- Checked a synthetic 10-record fixture with 11 passing unit tests and four blocked scoring/network probes; results are) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 296.30 Tm (engineering checks, not model-performance claims.) Tj ET
+0.09 0.22 0.22 rg BT /F2 9.60 Tf 1 0 0 1 47.00 280.00 Tm (FlowOps Engineering | Python / Node.js | 2026) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 267.00 Tm (- Built a stateful incident-coordination prototype with authorization revisions, persistent sessions, and recovery) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 255.70 Tm (constraints; verified with 45 Python tests, 9 Node.js tests, and 36 synthetic trajectories.) Tj ET
+0.09 0.22 0.22 rg BT /F2 9.60 Tf 1 0 0 1 47.00 239.40 Tm (Multimodal Anti-Fraud Data Pipeline | Python / Selenium / SQLite | Jul 2026) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 226.40 Tm (- Built a media collection and preprocessing workflow with speech-to-text components; organized 100+ audiovisual samples) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.75 Tf 1 0 0 1 59.00 215.10 Tm (and metadata for subsequent quality review.) Tj ET
+0.09 0.35 0.32 rg BT /F2 10.30 Tf 1 0 0 1 47.00 192.80 Tm (TECHNICAL SKILLS) Tj ET
+0.83 0.88 0.86 RG 0.65 w 47 181.80000000000007 m 548 181.80000000000007 l S
+0.17 0.24 0.24 rg BT /F1 8.35 Tf 1 0 0 1 47.00 170.80 Tm (Programming & ML: Python, C, PyTorch, Hugging Face Transformers, prompt development, model evaluation) Tj ET
+0.17 0.24 0.24 rg BT /F1 8.35 Tf 1 0 0 1 47.00 156.00 Tm (Tools: Git/GitHub, Linux, LaTeX, Selenium, SQLite; basic familiarity with Docker) Tj ET
+0.09 0.35 0.32 rg BT /F2 10.30 Tf 1 0 0 1 47.00 132.20 Tm (ADDITIONAL INFORMATION) Tj ET
+0.83 0.88 0.86 RG 0.65 w 47 121.20000000000005 m 548 121.20000000000005 l S
+0.17 0.24 0.24 rg BT /F1 8.35 Tf 1 0 0 1 47.00 110.20 Tm (English: CET-4 \(528/710\) | Research availability: Remote collaboration from January 15, 2027) Tj ET
+0.78 0.84 0.82 RG 0.65 w 47 43 m 548 43 l S
+0.43 0.53 0.51 rg BT /F1 8.00 Tf 1 0 0 1 47.00 29.00 Tm (Nanhao Su  |  Academic CV  |  Nov 2026) Tj ET
+0.18 0.33 0.32 rg BT /F2 8.00 Tf 1 0 0 1 518.00 29.00 Tm (1 / 1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000006622 00000 n 
+0000006692 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+6767
+%%EOF
