@@ -1,29 +1,20 @@
-# Hi, I'm Nanhao Su 👋
+# Nanhao Su - Research Portfolio
 
+This branch contains the public academic portfolio website for remote research collaborations.
 
-🎓 Undergraduate Student at Huazhong University of Science and Technology (HUST)
+## Publish with GitHub Pages
 
+1. Open **Settings > Pages** in this repository: https://github.com/nanhaosu/nanhaosu/settings/pages
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Select **gh-pages** and **/(root)**, then click **Save**.
+4. Visit **https://nanhaosu.github.io/nanhaosu/** once GitHub reports a successful deployment.
 
-## Research Interests
+## Files
 
-- Trustworthy AI
-- Large Language Model Security
-- Privacy-preserving Machine Learning
-- Foundation Models
+- `index.html` - responsive research portfolio website.
+- `cv.pdf` - printable one-page academic CV (GitHub-hosted text-layout version).
+- `research-brief.pdf` - printable two-page Research Brief (GitHub-hosted text-layout version).
 
+Note: the GitHub-hosted PDFs are faithful, text-based re-renderings of the application materials; the original designed PDFs remain in the ChatGPT deliverables. No private research artifacts, datasets, credentials, or unpublished methodological details are uploaded here. The source project and personal profile on `main` are unchanged.
 
-## Research Goals
-
-I am interested in developing reliable, secure, and responsible AI systems.
-
-
-## Current Focus
-
-- Reading papers on trustworthy AI and LLM security
-- Reproducing research papers
-- Building open-source AI research projects
-
-
-## Contact
-
-Email: sunanhao@hust.edu.cn or Sunanhao528@gmail.com
+Last updated: 3 November 2026.
